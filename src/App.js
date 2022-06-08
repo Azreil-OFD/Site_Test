@@ -1,23 +1,22 @@
 import React, { useState } from 'react';
+import Counter from './components/Counter';
+import Post from './components/post';
+import './styles/App.css';
 
 function App() {
-
-	const [state, setCount] = useState(5);
-	const [value, setValue] = useState("текст в инпуте");
-	function increment() {
-		setCount(state + 1);
-	}
-
-	function decrement() {
-		setCount(state - 1);
-	}
-
+	
 	return (
 		<div className="App">
-			<h1>{state}</h1>
+			<div class="app_content start_content">
+				<strong>Counter</strong>
+				<Counter />
+			</div>
+			<div class="app_content">
+				<strong>Post</strong>
+				<Post post={ { id : 1 , title : 'JavaScript' , body: 'Description'} } />
 
-			<button onClick={increment} >Increment</button>
-			<button onClick={decrement} >Decrement</button>
+			</div>
+			
 
 		</div>
 	);

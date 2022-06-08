@@ -1,0 +1,78 @@
+/* Стили для всей страницы */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+/* кнопки */
+
+button {
+    margin: 5px;
+    background-color: #ffffff; 
+    border-radius: 3px;
+    border: 2px solid #4CAF50; 
+    color: #4CAF50;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+button {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+
+/* стили приложений на странице */
+
+.App {
+    width: 800px;
+}
+
+.start_content {
+    margin-top: 10px;
+}
+
+.app_content {
+    margin-bottom: 10px;
+    margin-right: 1px;
+    margin-left: 1px;
+    background-color: rgba(253, 215, 0, 0.705);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.app_content:hover {
+    margin-bottom: 6px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-bottom: 4px solid rgb(195, 195, 255);
+    border-right: 1px solid rgb(195, 195, 255);
+    border-left: 1px solid rgb(195, 195, 255);
+}
+
+/* Стили для постов */
+.post {
+    display: flex;
+    padding: 15px;
+    border: 2px solid rgb(255, 106, 7);
+    border-radius: 10px;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
