@@ -66,6 +66,24 @@ button:hover {
     border-left: 1px solid rgb(195, 195, 255);
 }
 
+.app_content_title {
+    display: flex;
+    font-size: 23px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+
+}
+.app_content_title::before {
+    content: "";
+    display: flexbox;
+    width: 7px;
+    height: 25px;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+
 /* Стили для постов */
 .post {
     display: flex;
@@ -75,4 +93,13 @@ button:hover {
     margin-top: 15px;
     justify-content: space-between;
     align-items: center;
+}
+
+.post__title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.post__body {
+    font-size: 21px;
 }

@@ -1,12 +1,12 @@
 import React from "react";
 
-const Post = (props) => {
+const PostItem = (props) => {
     console.log(props)
     return (
         <div>
             <div className="post">
                 <div className="post__content">
-                    <strong className="post__title" > {props.post.id} {props.post.title}</strong>
+                    <strong className="post__title" > {props.post.id}.{props.post.title}</strong>
                     <div className="post__body">
                         {props.post.body}
                     </div>
@@ -18,4 +18,4 @@ const Post = (props) => {
         </div>
     );
 }
-export default Post;
+export default PostItem;
