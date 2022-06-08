@@ -103,3 +103,27 @@ button:hover {
 .post__body {
     font-size: 21px;
 }
+
+.post__list{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* Стили для Counter */
+.count {
+    display: inline;
+}
+
+.count__box{
+    margin-right: 10px;
+}
+
+.dead__insade {
+    font-size: 60px;
+    float: right;
+    color: red;
+    display: inline;
+    margin-top: -25px;
+}
+
