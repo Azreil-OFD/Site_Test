@@ -13,7 +13,9 @@ const PostItem =  () => {
                 </div>
             </div>
             <div className="post__btns">
-                <button>УДАЛИТЬ</button>
+                <button className= "button">УДАЛИТЬ</button>
+
+                
             </div>
         </div>
         </div>

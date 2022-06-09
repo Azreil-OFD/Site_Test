@@ -1,0 +1,15 @@
+
+Генераторы:
+
+
+https://maxzon.ru/button_gen/index.html
+
+https://stylecss.ru/category/generatory-css/
+
+https://animista.net/play/text/pop-up/text-pop-up-top
+
+https://www.internet-technologies.ru/articles/15-luchshih-instrumentov-css3-animacii-dlya-razrabotchikov.html
+
+http://jeremyckahn.github.io/stylie/
+
+https://webcode.tools/generators/css/keyframe-animation
