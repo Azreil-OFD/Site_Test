@@ -1,21 +1,20 @@
 import React, { useState } from 'react';
 
-const PostItem =  () => {
-
+const PostItem =  (props) => {
+    
 
     return (
         <div>
         <div className="post">
             <div className="post__content">
-                <strong>1. Javascript</strong>
+                <strong>1. {props.post.id} {props.post.title}</strong>
                 <div>
-                    Javascript - язык программирования
+                {props.post.body}
                 </div>
             </div>
             <div className="post__btns">
-                <button className= "button">УДАЛИТЬ</button>
+                <button className= "button">ПОЛУЧИТЬ</button>
 
-                
             </div>
         </div>
         </div>
