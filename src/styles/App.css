@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 800px;
+}
+/* стили для постов */
+.post {
+    display: flex;
+    border: 2px inset gray;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.post__btns{
+    display: flex;
+}
+
+.post__btn{
+    border-radius: 20px;
+    width: 90px;
+}
+
+/* стили для кнопок */
