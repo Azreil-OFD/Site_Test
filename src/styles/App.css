@@ -19,6 +19,8 @@
     border-radius: 20px;
     margin-top: 20px;
     padding: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .post__btns{
@@ -28,6 +30,15 @@
 .post__btn{
     border-radius: 20px;
     width: 90px;
+    height: 30px;
+    margin-right: 2px;
+}
+
+.post__btn:hover{
+    border-radius: 10px ;
+    width: 92px;
+    height: 32px;
+    margin-right: 0px;
 }
 
 /* стили для кнопок */
