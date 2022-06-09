@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 
-const PostItem =  () => {
+const PostItem =  (data) => {
 
-
+    console.log(data);
     return (
         <div>
             <div className="post">
                 <div className="post__content">
                     <strong>
-                        1. JavaScript
+                        {data.post.id}. {data.post.title}
                     </strong>
                     <div>
-                        JavaScript - Язык программирования
+                        {data.post.body}
                     </div>
                 
                 
