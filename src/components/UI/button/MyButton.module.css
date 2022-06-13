@@ -1,0 +1,94 @@
+.myBtn {
+    width: 93%;
+    height: 35%;
+    padding: 5px 15px;
+    background: transparent;
+    color: gray;
+    font-size: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.myBtn:hover {
+    
+    width: 93%;
+    height: 35%;
+    padding: 5px 15px;
+    background: transparent;
+    color: red;
+    font-size: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    0% {
+        margin-top: 0px;
+        margin-left: 0px;
+
+        padding: 5px 15px;
+    }
+    10%{
+        margin-top: 5px;
+        margin-left: -5px;
+
+        padding: calc(5-5) calc(15-5);
+    }
+    20%{
+        margin-top: 1px;
+        margin-left: 1px;
+
+        padding: calc(5+1) calc(15+1);
+    }
+    30%{
+        margin-top: 5px;
+        margin-left: 5px;
+
+        padding: 15px 20px;
+    }
+    40%{
+        margin-top: 9px;
+        margin-left: -9px;
+
+        padding: 14px 6px;
+    }
+    50%{
+        margin-top: 3px;
+        margin-left: 3px;
+
+        padding: 8px 18px;
+    }
+    60%{
+        margin-top: 1px;
+        margin-left: -1px;
+
+        padding: 6px 14px;
+    }
+    70%{
+        margin-top: 6px;
+        margin-left: -6px;
+
+        padding: 12px 9px;
+    }
+    80%{
+        margin-top: 1px;
+        margin-left: 1px;
+
+        padding:6px 16px;
+    }
+    90%{
+        margin-top: 8px;
+        margin-left: -8px;
+
+        padding: 8px 18px;
+    }
+    100%{
+        margin-top: 0px;
+        margin-left: 0px;
+
+        padding: 8px 18px;
+    }
+}

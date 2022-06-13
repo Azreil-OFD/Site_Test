@@ -1,0 +1,9 @@
+.myInput{
+    width: 100%;
+    padding: 5PX 15px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+.myInput:focus{
+    border: 3px solid #4CAF50;
+}

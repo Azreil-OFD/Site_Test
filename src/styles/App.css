@@ -13,7 +13,7 @@
 
 /* кнопки */
 
-button {
+.btn {
     margin: 5px;
     background-color: #ffffff; 
     border-radius: 3px;
@@ -27,12 +27,12 @@ button {
 }
 
 
-button {
+.btn {
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
 }
 
-button:hover {
+.btn:hover {
     background-color: #4CAF50; 
     color: white;
 }
@@ -127,3 +127,48 @@ button:hover {
     margin-top: -25px;
 }
 
+.app_form{
+    position: absolute;
+    top:35px;
+    left: 15%;
+    width: 250px;
+    height: 320px;
+    background-color:coral;
+    border: #ffffff solid 1px;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 35px;
+}
+
+.app_form form{
+    display: absolute ;
+    width: 200px;
+    height: 150px;
+    font-size: 18px;
+}
+
+.app_form_text{
+    width: 90%;
+    height: 40px;
+    font-size: 25px;
+}
+
+.app_form_body{
+    width: 181px;
+    height: 136px;
+}
+
+/* .app_form button{
+    margin-left: -9px;
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: rgb(238, 255, 0);
+}
+
+.app_form button:hover {
+    color: black;
+    border-radius: 24px;
+    border-color: black;
+} */
